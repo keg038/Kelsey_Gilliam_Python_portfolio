@@ -1,7 +1,6 @@
 # Kelsey_Gilliam_Python_portfolio
 This is my portfolio of python code that I learned during BISC 450C V84 in Spring of 2023!
 
-# What is Digital Biology?
 ## Using Jupyter Notebooks
 
 * This is the first notebook we created.
@@ -497,6 +496,7 @@ fig.tight_layout()
 
 
 ## Analyzing Data
+
 ### Python Fundamentals
 
 ```python
@@ -544,25 +544,29 @@ print(weight_kg)
 
 
 ```python
-# floating point number
+# Floating point number
+
 weight_kg =60.3
 ```
 
 
 ```python
-# string comprised of letters
+# String comprised of letters
+
 patient_name ="Jon Smith"
 ```
 
 
 ```python
-# string comprised of numbers
+# String comprised of numbers
+
 patient_id ='001'
 ```
 
 
 ```python
 # Use variables in python
+
 weight_lb =2.2 * weight_kg
 
 print (weight_lb)
@@ -595,7 +599,7 @@ print(patient_id, 'weight in kilograms:', weight_kg)
 
 
 ```python
-# we can call a function inside another function
+# We can call a function inside another function
 
 print(type(60.3))
 
@@ -608,7 +612,7 @@ print(type(patient_id))
 
 
 ```python
-# we can also do calculations inside the print function
+# We can also do calculations inside the print function
 
 print('weight in lbs:', 2.2 * weight_kg)
 ```
@@ -809,8 +813,7 @@ print('minimum inflammation:', stdval)
 
 
 ```python
-# sometimes we want to look at variation in statistical values, like maximum inflammation per patient
-# or average from day one.
+# Sometimes we want to look at variation in statistical values, like maximum inflammation per patient or average from day one.
 
 patient_0 =data[0, :] # 0 on the first axis (rows), everyhting on second (column)
 
@@ -890,7 +893,7 @@ matplotlib.pyplot.show()
 
 
 ```python
-# average inflammation over time
+# Average inflammation over time
 
 ave_inflammation = numpy.mean(data,axis = 0)
 ave_plot = matplotlib.pyplot.plot(ave_inflammation)
@@ -950,6 +953,7 @@ matplotlib.pyplot.show()
 
 
 ## Loops, Lists, and Analyzing Data
+
 ### Storing Values in Lists
 ```python
 odds =[1,3,5,7]
@@ -1269,6 +1273,7 @@ for filename in filenames:
 
 
 ## Functions, Errors, and Exceptions
+
 ### Making Choices
 ```python
 import numpy
@@ -1356,9 +1361,7 @@ def explicit_fahr_to_celsius(temp):
 
 ```python
 def fahr_to_celsius(temp):
-    #Return converted values more  efficiently using the return function without creating
-    # a new variable. This code does the same thing as the previous function but it is more 
-    # explicit in explaining how the return command works.
+    #Return converted values more efficiently using the return function without creating a new variable. This code does the same thing as the previous function but it is more explicit in explaining how the return command works.
     return((temp-32)*(5/9))
 ```
 
@@ -1608,8 +1611,8 @@ print('difference in standard deviation before and after:',
 
 ```python
 # Offset_mean(data, target_mean_value):
-# return a new array containing the original data with its mean offsetto mmatch the desired value
-# this data should ne imputed as measurements in columns and samples in rows
+# Return a new array containing the original data with its mean offset to match the desired value this data should be imputed as measurements in columns and samples in rows.
+
 def offset_mean(data, target_mean_value):
         return(data -numpy.mean(data)) + target_mean_value
 ```
@@ -1911,6 +1914,7 @@ def std_dev(sample):
 ```
 
 ## Defensive Programming and Debugging
+
 ### Defensive Programming
 
 ```python
@@ -1992,6 +1996,7 @@ print(normalize_rectangle( (0.0, 0.0, 5.0, 1.0) ))
 
 
 # Applied Digital Biology
+
 ## Transcribing DNA into RNA with Python
 ```python
 # Prompt the user to enter the name of a file (FASTA) to be transcripted into RNA

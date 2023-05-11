@@ -31,14 +31,11 @@ This is the first notebook we created.
 ### Functions
 
 
-### Errors
-
-
 ## Defensive Programming and Debugging
 ### Defensive Programming
 
 
-### Command Line Programs
+
 
 # Applied Digital Biology
 ## Transcribing DNA into RNA with Python

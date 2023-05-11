@@ -4,7 +4,7 @@ This is my portfolio of python code that I learned during BISC 450C V84 in Sprin
 # What is Digital Biology?
 ## Using Jupyter Notebooks
 
-This is the first notebook we created.
+* This is the first notebook we created.
 
 ```python
 %matplotlib inline

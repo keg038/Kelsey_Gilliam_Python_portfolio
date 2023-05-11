@@ -496,11 +496,6 @@ fig.tight_layout()
 
 
 
-```python
-
-```
-
-
 ## Analyzing Data
 ### Python Fundamentals
 

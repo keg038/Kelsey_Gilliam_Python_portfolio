@@ -46,5 +46,3 @@ This is the first notebook we created.
 
 ## Translating RNA into Proteins with Python
 
-
-## Coronavirus Genomics with Python

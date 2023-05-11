@@ -1,7 +1,7 @@
 # Kelsey_Gilliam_Python_portfolio
 This is my portfolio of python code that I learned during BISC 450C V84 in Spring of 2023!
 
-## Using Jupyter Notebooks
+## **Using Jupyter Notebooks**
 
 * This is the first notebook we created.
 
